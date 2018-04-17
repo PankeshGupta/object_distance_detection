@@ -8,4 +8,4 @@ model_info: {category: computer_vision}
 model_log: {created_at: 20-03-2018}
 example: { input: { file_path: ccdf4f62-2216-42f9-b870-f006e2e9f7e5 }, output: { result: This shows akira logo . This is at a distance of 5.03 yars } }
 model_versions:
-- v0.1: {category: stable, features: This is the basic model, release_date: 20-03-2018,
+- v0.1: {category: stable, features: This is the basic model, release_date: 20-03-2018}
