@@ -1,11 +1,11 @@
-model_name: Sentiment Analysis
+model_name: Object Distance Detection
 model_desc:
-  description: Extract sentiment from text
-  details: Identify and extract sentiment in given string. Sentiment analysis (also known as opinion mining) refers to the use of natural language processing, text analysis and computational linguistics to identify and extract subjective information in source materials. This algorithm takes an input string and assigns a sentiment.
-  keywords: [nlp, sentiment analysis,text analysis]
+  description: Detect Object and their distance from an image
+  details: Extraxt description about object in an image and identify the distance they are at .
+  keywords: [ml,computer_vision,object_detection]
   type: regression
-model_info: {category: text_analysis}
+model_info: {category: computer_vision}
 model_log: {created_at: 20-03-2018}
-example: { input: { text: Akira is so awesome}, output: { result: Happy} }
+example: { input: { file_path: ccdf4f62-2216-42f9-b870-f006e2e9f7e5 }, output: { result: This shows akira logo . This is at a distance of 5.03 yars } }
 model_versions:
-- v0.1: {category: incubate, features: This is the basic model, release_date: 20-03-2018,
+- v0.1: {category: stable, features: This is the basic model, release_date: 20-03-2018,
